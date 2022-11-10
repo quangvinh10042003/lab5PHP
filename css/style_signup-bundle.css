@@ -1,0 +1,118 @@
+.text-top{
+    font-size: 20px;
+    line-height: 12px;
+}
+.name-bundle{
+    width: 110px;
+    height: 110px;
+    background-color:#ef6b72;
+    border: none;
+    line-height: 110px;
+}
+.text-bundle{
+    font-size: 15px;
+    width: 110px;
+    font-weight: bold;
+}
+.onfocus{
+    background-color: #e50914;
+    color: #e50914 !important;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.text-white{
+    color: #fff !important;
+}
+.font-foot{
+    font-size: 13px;
+}
+.but-in-bundle{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    background-color: #e50914;
+    border: none;
+    font-size: 26px;
+}
+.but-in-bundle:hover{
+    background: #e4535b;
+    border: none !important;
+    box-shadow: none;
+}
+.block-but{
+    width: 40%;
+}
+    
+
+.attribute{
+    border-bottom: 1px solid rgba(190, 190, 190, 0.726);
+}
+.big-font-icon{
+    font-size: 30px;
+}
+.box-text-bundle2{
+    width: 60%;
+    margin: auto;
+}
+.master-card{
+    padding: 10px 15px;
+    width: 100%;
+}
+.master-card:focus{
+    box-shadow: none;
+}
+.icon-in-but-mastercard{
+    font-size: 26px;
+    padding-top: 3px;
+    color: rgb(175, 174, 174);
+}
+.bundle3-content{
+    margin-top: 50px;
+}
+.bundle-chosing{
+    margin: 15px 0px ;
+    padding: 5px 10px;
+    background: #f4f4f4;
+    line-height: 13px;
+}
+
+@media screen and (max-width: 480px){
+    .name-bundle{
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+    .text-bundle{
+        
+        font-size: 11px;
+        width: 65px;
+    }
+    .text-top{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .fix-container{
+        width: 100%;
+    }
+    .attribute{
+        text-align: center;
+    }
+    .big-font-icon{
+        font-size: 20px;
+    }
+    .but-in-bundle{
+        width: 100%;
+        font-size: 16px;
+    }
+    .block-but{
+        width: 100%;
+    }
+    .box-text-bundle2{
+        width: 90%;
+    }
+    .icon-in-but-mastercard{
+        font-size: 20px;
+        padding-top: 15px ;
+    }
+}

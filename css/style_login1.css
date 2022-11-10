@@ -1,0 +1,91 @@
+main{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705),rgba(85, 85, 85, 0.5)) ;
+}
+form{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.icon-web{
+    margin-left: 80px;
+    color: #e50914 !important;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.form{
+    width: 450px;
+    min-height: 660px;
+    background-color: rgba(0,0,0,.75);
+    padding: 50px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+.input{
+    padding: 25px 20px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background: rgb(51 51 51);
+}
+.input:focus{
+    box-shadow: none;
+    background-color: rgb(51 51 51);
+    color: white;
+}
+.form-items{
+    padding: 10px 0px;
+}
+
+.but-submit{
+    background: #e50914 !important;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.remember{
+    width: 15px ;
+    height: 15px;
+
+}
+.form-text{
+    padding-top: 5px;
+}
+.footer{
+    background-color: rgba(0,0,0,.75);
+    padding: 50px 20px;
+}
+.language{
+    border: 1px solid #fff;
+    background-color: rgba(48, 47, 47, 0);
+    border-radius: 0;
+}
+.err{
+    display: block;
+    height: 16px;
+}
+.border-err{
+    border-bottom: 3px solid red ;
+}
+.change-type-pass{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+    form{
+        padding-bottom: 0 ;
+    }
+    .form{
+        width: 320px;
+        padding: 15px;
+    }
+    .main{
+        width: 320px;
+    }
+    
+}

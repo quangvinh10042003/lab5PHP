@@ -1,0 +1,278 @@
+header {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    border-bottom: 8px solid #222;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(24, 23, 23, 0.5));
+}
+
+.icon-web {
+    margin-left: 80px;
+    color: #e50914 !important;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.language-login {
+    margin-right: 80px;
+}
+
+.language {
+    border: 1px solid #fff;
+    background-color: rgba(48, 47, 47, 0);
+    border-radius: 0;
+}
+
+.language-items {
+    min-width: 0;
+    width: 100%;
+    padding: 2px 0px;
+    border: none;
+    border-radius: 0;
+}
+
+.login {
+    background-color: #e50914;
+    border: 2px solid #e50914;
+    border-radius: 0;
+    color: #fff;
+}
+
+.text-header {
+    padding-top: 50px;
+    background: none;
+}
+
+.h1-header {
+    font-size: 3.125rem !important;
+    font-weight: bold;
+}
+
+.p1-header {
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.p2-header {
+    font-size: 1.2rem;
+}
+
+.email-login {
+    margin-top: -80px;
+    width: 700px;
+    padding-bottom: 120px;
+}
+
+.input-email {
+    width: 560px !important;
+    padding: 30px 15px !important;
+    border-radius: 0;
+    border: 1px solid #e50914;
+}
+
+.button-email {
+    width: 140px;
+    border-radius: 0;
+    background-color: #e50914;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.h1-info1 {
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.info {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+    border-bottom: 8px solid #222;
+}
+
+.box-video {
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    padding: 70px;
+    top: 13px;
+}
+
+.name-info2 {
+    width: 80%;
+    padding: 10px 25px;
+    border: 3px solid #222;
+    border-radius: 8px;
+    background-color: #000;
+    bottom: 50px;
+    left: 50px;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+.info2-img {
+    height: 4.5rem;
+}
+
+.download {
+    margin-left: 40%;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    border-radius: 50%;
+    border: 5px solid rgb(39, 1, 255);
+    border-bottom: 5px solid #000;
+    animation: load 3s linear infinite;
+}
+
+.question {
+    width: 100%;
+}
+
+.text-question {
+    padding: 50px 0px;
+}
+
+.drop-box {
+    width: 100%;
+    background: #303030;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    font-size: 24px;
+}
+
+.answer {
+    background: #545b62;
+    border: none;
+    border-radius: 0;
+    padding: 13px;
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem rgb(130 138 145 / 50%);
+}
+
+.box-dropdown {
+    padding: 5px 0px;
+}
+
+.email-login-2 {
+    margin-top: 40px;
+    width: 700px;
+    padding-bottom: 120px;
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.item-films {
+    margin-top: -55px;
+    height: 450px;
+}
+
+.h1-items {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p1-items {
+    font-size: 24px;
+}
+
+footer {
+    padding: 50px 0px;
+    background-color: #000
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        position: relative;
+        padding: 0;
+    }
+    .video-tv {
+        position: absolute;
+        width: 330px;
+        top: -280px;
+        right: 62px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        position: relative;
+        padding: 0;
+    }
+    .video-tv {
+        position: absolute;
+        width: 506px;
+        top: -423px;
+        right: 96px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .icon-web {
+        font-size: 30px !important;
+        margin-left: 20px;
+    }
+    .language-login {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .language-items {
+        min-width: 100px;
+    }
+    .h1-header {
+        font-size: 30px !important;
+    }
+    .p1-header {
+        font-size: 20px;
+    }
+    .p2-header {
+        font-size: 16px;
+    }
+    .email-login {
+        width: 200px;
+        padding-top: 30px;
+    }
+    .email-login-2 {
+        width: 200px;
+    }
+    .input-email {
+        width: 200px !important;
+        padding: 5px 10px !important;
+    }
+    .button-email {
+        width: 80px;
+        padding: 3px 0px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .video {
+        position: relative;
+        padding: 0;
+    }
+    .video-tv {
+        position: absolute;
+        width: 212px;
+        top: -185px;
+        right: 40px;
+    }
+    .h1-info1 {
+        font-size: 30px !important;
+    }
+    .drop-box {
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+}
